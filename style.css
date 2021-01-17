@@ -1,0 +1,109 @@
+.line {
+    width: 100px;
+    height: 7px;
+    background-color: black;
+    margin: auto
+}
+
+#section2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+    max-width: 400px;
+    margin: 25px auto;
+}
+
+#photo {
+    border-radius: 50%;
+    width: 200px;
+    padding-bottom: 50px;
+}
+
+#section1 {
+    text-align: center;
+    background: linear-gradient(#f2d363 0%, #f26058 100%);
+    height: 800px;
+    display: table;
+
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+}
+
+.divide {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+body {
+    padding-top: 800px;
+    text-align: center;
+}
+
+#write {
+    font-family: fantasy
+}
+
+
+}
+
+.links {
+    display: inline;
+    color: chocolate;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: fantasy;
+    font-size: 20px;
+
+}
+
+.links:hover {
+    text-decoration: underline;
+    font-size: 25px
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.anchor {
+    text-decoration: none;
+}
+
+
+   
+
+
+
+
+#sectionwriting a {
+    text-decoration: underline;
+    color: aqua;
+    text-shadow: none;
+}
+
+
+#sectioncontact a {
+    color: white;
+    text-shadow: none;
+}
+
+h3 {
+    display: inline;
+}
+
+#sectioncontact iframe {width:100%; }
+
+#sectioncontact {background: red;} 
+#sectionwriting a:hover {color: fuchsia;}
+
+.my_nav_bar{top:0;position:sticky;z-index:999;}
+body {text-align: center;}
